@@ -56,6 +56,7 @@ GPIO.output(relay6,GPIO.HIGH) # Relay6 turns OFF
 
 # Functions
 def Calculate_time(quantity,Pump_timing_in_sec):
+    val = None
     if quantity == 1:
         val = 250
     elif quantity == 2:
