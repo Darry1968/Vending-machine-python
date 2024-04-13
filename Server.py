@@ -197,8 +197,8 @@ while True:
             print(data)
 
             v1 = int(data[1])
-            w1 = int(data[3])
-            x1 = int(data[5])
+            w1 = int(data[4])
+            x1 = int(data[7])
             print("v1 ", v1, "w1 ", w1, "x1 ", x1)
 
             if data:
