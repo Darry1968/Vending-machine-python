@@ -236,8 +236,13 @@ while True:
 
             else:
                 print("data not received")
+                
         except bluetooth.btcommon.BluetoothError as error:
             client_socket.close()
+            break
+            
+        except Exception as e:
+            print("An error occured: ",e)
             break
     print("\rBluetooth connection not established. Retrying...",end="")
     time.sleep(1)
