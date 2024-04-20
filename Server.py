@@ -69,7 +69,7 @@ def Calculate_time(quantity,Pump_timing_in_sec):
         val = 250
     elif quantity == 2:
         val = 500
-    elif quantity == 4:
+    elif quantity == 3:
         val = 1000
 
     x = val/Pump_timing_in_sec
