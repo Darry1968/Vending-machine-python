@@ -20,7 +20,7 @@ Follow these steps to set up the Vending Machine project on your Raspberry Pi:
 
 2. Install required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install pybluez
    ```
 
 3. Ensure your Raspberry Pi is configured correctly with all hardware connections set up.
@@ -41,7 +41,7 @@ Follow these steps to set up the Vending Machine project on your Raspberry Pi:
 
 - **Python 3.8+**
 - Raspberry Pi (any model with GPIO support)
-- Required Python libraries (installed via `requirements.txt`):
+- Required Python libraries:
   - `pybluez`
   - `RPi.GPIO`
 
